@@ -1,0 +1,7 @@
+search bar home (dropdwon)
+categhory:
+photo 
+discrption
+money amnount
+ login panel 
+adding payment system

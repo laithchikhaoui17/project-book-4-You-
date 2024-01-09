@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Search Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>jQuery Search Example</h2>
+    <input type="text" id="search" placeholder="Search here...">
+    <div id="result"></div>
+
+    <script>
+        $(document).ready(function() {
+            // List of items for search
+            var items = [
+                { name: 'Item 1', description: 'This is Item 1.' },
+                { name: 'Item 2', description: 'This is Item 2.' },
+                { name: 'Item 3', description: 'This is Item 3.' },
+            ];
+
+            // Search function
+            function search(query) {
+                var results = [];
+                $.each(items, function(index, item) {
+                    if (item.name.toLowerCase().indexOf(query.toLowerCase()) != -1) {
+                        results.push(item);
+                    }
+                });
+                return results;
+            }
+
+            // Execute search when the user types in the search bar
+            $('#search').on('keyup', function() {
+                var query = $(this).val();
+                var results = search(query);
+                $('#result').empty();
+                $.each(results, function(index, item) {
+                    $('#result').append('<p><strong>' + item.name + '</strong>: ' + item.description + '</p>');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
