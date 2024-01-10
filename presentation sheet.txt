@@ -1,0 +1,15 @@
+*intro for production
+book 4 you is website that offer a defernt type of cartoon ebooks , manga , and commic books for kids
+also  Our collection of age-appropriate books is designed to capture their imagination and fuel their curiosity
+We believe that every child has unique interests and preferences, so we have made it easy for them to discover and enjoy books that resonate with them
+*reson
+i choose to make a this website  at the beginig to make sure this is my first try ,second 
+*DEMO video 
+*chalanges:
+i face some functionality problem with jquery
+i try to make a a search engine that cantain all category of books ,it means when i search for a name  of book or  the category of that book it give me the
+specific one ,but all the time  it end up with an errur or not even work. 
+*what i learn:
+i learn how to link an img to any link without using button
+*conclution
+as conclution i thing i try my best to make a presentev website as the first time and i will practice more do better in the futur .
