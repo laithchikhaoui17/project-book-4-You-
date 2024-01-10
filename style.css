@@ -42,10 +42,27 @@ section {
     justify-content: center;
     align-items: center;
     background: #fdeca9;
+    background-image: url(https://img.freepik.com/premium-photo/soft-abstract-pastel-color-gradient-wallpaper-background_533018-40.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704758400&semt=ais);
     font-size: 100px;
     color: #fff;
     font-weight: 700;
 }
 section:nth-child(odd) {
-    background: #ffda76;
+   ;
+}
+#itemsList{
+    display: flex ;
+    flex-direction: column;
+}
+.text{
+    font-size: large;
+    size-adjust: 10px;
+   display: flex;
+
+}
+
+}
+.home{
+    display: flex;
+       
 }
